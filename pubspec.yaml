@@ -1,0 +1,25 @@
+name: light_bulb_effect
+description: the light bulb effect app
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  assets_audio_player: 3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
